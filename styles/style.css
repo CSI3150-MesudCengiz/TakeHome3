@@ -1,20 +1,28 @@
 body{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5em;
     color: #1D1A05;
 }
+#main-title{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#secondary-title{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
 h1{
-    font-size: 6em;
+    font-size: 5rem;
 }
 h2{
-    font-size: 4em;
+    font-size: 4rem;
 }
 h3{
-    font-size: 3em;
+    font-size: 3.5rem;
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 #section1{
     background-image: url(../images/bg1.png);
@@ -59,7 +67,6 @@ p{
     background-repeat:no-repeat;
     background-size: cover;
 }
-
 
 .scroll-down {
     height: 60px;
@@ -108,8 +115,8 @@ p{
     }
 }
 .card{
-    height: 500px;
-    width: 450px;
+    height: 250px;
+    width: 200px;
     background-color: transparent;
     border: none;
     border-radius: 0%;
@@ -121,8 +128,8 @@ p{
   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    height: 500px;
-    width: 450px;
+    height: 250px;
+    width: 200px;
     border: none;
     /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
